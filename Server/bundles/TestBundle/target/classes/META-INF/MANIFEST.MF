@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Export-Package: pl.marinesproject.server.test;uses:="org.osgi.framewor
+ k"
+Built-By: jblew
+Tool: Bnd-0.0.357
+Bundle-Name: TestBundle
+Created-By: Apache Maven Bundle Plugin
+Bundle-Version: 1.0.0.SNAPSHOT
+Build-Jdk: 1.6.0_22
+Bnd-LastModified: 1321120534825
+Bundle-ManifestVersion: 2
+Bundle-Activator: pl.marinesproject.server.test.Activator
+Import-Package: org.osgi.framework;version="1.5",pl.marinesproject.ser
+ ver.test
+Bundle-SymbolicName: pl.marinesproject.server.TestBundle
+

@@ -1,0 +1,2 @@
+mvn install:install-file -Dfile=jtpl-2.0.jar -DgroupId=net.sf.jtpl -DartifactId=jtpl -Dversion=2.0 -Dpackaging=jar
+

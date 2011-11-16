@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Export-Package: pl.marinesproject.server.webserver;uses:="org.osgi.fra
+ mework,pl.marinesproject.server.webserver.servlets,org.osgi.service.h
+ ttp",pl.marinesproject.server.webserver.templates,pl.marinesproject.s
+ erver.webserver.servlets;uses:="pl.marinesproject.server.webserver.te
+ mplates"
+Bundle-ClassPath: .,guava-10.0.1.jar,javax.servlet-api-3.0.1.jar,jtpl-
+ 2.0.jar
+Built-By: jblew
+Tool: Bnd-0.0.357
+Bundle-Name: WebServer
+Created-By: Apache Maven Bundle Plugin
+Export-Service: pl.marinesproject.server.webserver.WebServer
+Build-Jdk: 1.6.0_22
+Bundle-Version: 1.0.0.SNAPSHOT
+Bnd-LastModified: 1321113588062
+Bundle-ManifestVersion: 2
+Bundle-Activator: pl.marinesproject.server.webserver.Activator
+Bundle-SymbolicName: pl.marinesproject.server.WebServer
+Import-Package: javax.annotation,org.osgi.framework;version="1.6",org.
+ osgi.service.http;version="1.2",pl.marinesproject.server.webserver,pl
+ .marinesproject.server.webserver.servlets,pl.marinesproject.server.we
+ bserver.templates,sun.misc
+Embed-Dependency: guava;javax.servlet-api;jtpl;
+

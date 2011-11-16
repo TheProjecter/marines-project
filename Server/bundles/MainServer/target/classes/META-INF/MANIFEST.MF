@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Export-Package: pl.marinesproject.server
+Built-By: jblew
+Tool: Bnd-0.0.357
+Bundle-Name: The Marines Project Server
+Created-By: Apache Maven Bundle Plugin
+Bundle-Version: 1.0.0.SNAPSHOT
+Build-Jdk: 1.6.0_22
+Bnd-LastModified: 1320948462077
+Bundle-ManifestVersion: 2
+Bundle-Description: Server for The Marines Project. It consist's of se
+ veral servers: web server, telnet server, flash policy server and RMI
+  Server.
+Import-Package: pl.marinesproject.server
+Bundle-SymbolicName: pl.marinesproject.Server
+
